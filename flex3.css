@@ -4,26 +4,45 @@
   font-family: 'Raleway','Lato', sans-serif;
  }
  h1 {
+  font-weight:300;
   font-size:4em;
+   }
+   p{
+
+    display: inline-block;
+    vertical-align: top;
+   }
+   .para{
+font-weight:100;
+display: table-cell;
+vertical-align: middle;
+
+  text-align:center;
    }
  .column {
   float: center;
   width: 100%;
   overflow: hidden;
   height:90vh;
-  line-height: 90vh;
-  padding-bottom:25vh;
+}
+ input {
+  float: center;
+  width: auto;
+  overflow: hidden;
+  height:21vh;
+}
+.store{
+
+  padding-bottom:10vh;
 }
 .text{
-  padding-bottom:25vh;
-
+  height:50vh;
+  width:100%;
+  display: table;
+  overflow: hidden;
+  text-align:center;
 }
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 @media screen and (max-width: 700px) {
   h1 {
